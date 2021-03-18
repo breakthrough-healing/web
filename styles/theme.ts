@@ -1,5 +1,5 @@
 export default {
   fonts: {
-    natural: 'Caveat, sans',
+    natural: 'HVMuse, sans',
   },
 };

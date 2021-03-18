@@ -9,13 +9,19 @@ const IndexPage: FunctionComponent = () => (
         <VStack spacing={[2, 4]}>
           <Text
             fontFamily="natural"
-            fontSize={['3.2rem', '5rem']}
+            fontSize={['3.2rem', '4rem', '5rem']}
             lineHeight={1}
           >
             Breakthrough Healing
           </Text>
           <Image src="/img/splash.png" alt="Photo of Dr. Juliana King" />
-          <Text fontFamily="natural" fontSize="2rem" lineHeight={1}>
+          <Text
+            fontFamily="natural"
+            fontStyle="italic"
+            fontSize={['1.5rem']}
+            lineHeight={1}
+            pt={2}
+          >
             By Dr. Juliana King, DACM
           </Text>
           <Text pt={8}>Website currently under construction</Text>
