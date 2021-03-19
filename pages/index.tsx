@@ -37,7 +37,11 @@ const IndexPage: FunctionComponent = () => (
           >
             Breakthrough Healing
           </Text>
-          <Image src="/img/splash.png" alt="Photo of Dr. Juliana King" />
+          <Image
+            src="/img/juliana-600.png"
+            alt="Photo of Dr. Juliana King"
+            borderRadius="100%"
+          />
           <Text
             fontFamily="natural"
             fontStyle="italic"
@@ -51,16 +55,16 @@ const IndexPage: FunctionComponent = () => (
             <Text pr={3}>Contact me:</Text>
             <Stack textAlign="left">
               <SocialLink
+                href="mailto:julianadejongh@gmail.com"
+                icon={SiMailDotRu}
+                text="hello@drjulianaking.com"
+                label="email"
+              />
+              <SocialLink
                 href="https://www.instagram.com/drjulianaking"
                 icon={SiInstagram}
                 text="drjulianaking"
                 label="instagram"
-              />
-              <SocialLink
-                href="mailto:julianadejongh@gmail.com"
-                icon={SiMailDotRu}
-                text="email"
-                label="email"
               />
             </Stack>
           </Flex>
