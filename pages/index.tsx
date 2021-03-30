@@ -1,6 +1,5 @@
 import {
   Box,
-  Flex,
   Grid,
   Icon,
   Image,
@@ -20,7 +19,7 @@ const SocialLink: FunctionComponent<{
   icon: ElementType;
 }> = ({ href, label, text, icon }) => (
   <Link href={href}>
-    <Icon as={icon} aria-label={label} mr={1} />
+    <Icon as={icon} aria-label={label} mr={1} pb="2px" />
     {text}
   </Link>
 );
@@ -68,7 +67,7 @@ const IndexPage: FunctionComponent = () => (
               label="instagram"
             />
           </Stack>
-          <Text pt={8}>Website currently under construction</Text>
+          <Text pt={10}>Website currently under construction</Text>
         </VStack>
       </Grid>
     </Box>
