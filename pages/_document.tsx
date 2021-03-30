@@ -21,6 +21,8 @@ export default class Document extends NextDocument {
       <Html>
         <Head>
           <Global styles={fonts} />
+          <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+          <link rel="alternate icon" href="/favicon.ico" />
         </Head>
         <body>
           <ColorModeScript />
